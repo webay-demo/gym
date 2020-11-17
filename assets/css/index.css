@@ -1,0 +1,729 @@
+
+
+.main-slide {
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    background: url("../../resources/img/pexels-anush-gorak-1229356.jpg");
+    background-size: cover;
+    background-position: right;
+    padding: 0 0;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.heading-text {
+    width: 600px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(42%);
+}
+
+h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.heading-sub-text {
+    margin-bottom: 38px;
+    font-size: 16px;
+}
+
+.main-cta {
+    width: 135px;
+    padding: 9px;
+    background-color: transparent;
+    border: 1px solid #e83f53;
+    color: #fff;
+    text-align: center;
+    transition: all .2s;
+    outline: none;
+}
+
+.main-cta:hover {
+    background-color: #e83f53;
+    border: 1px solid #e83f53;
+    outline: none;
+}
+
+.about {
+    width: 100%;
+}
+
+.col-1-of-2, .col-2-of-2 {
+    padding: 70px 0;
+}
+
+.col-2-of-2 {
+    padding: 100px 0;
+}
+
+.about-us-image {
+    width: 500px;
+}
+
+h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #e83f53;
+    font-weight: 700;
+}
+
+.sub-h2 {
+    font-weight: 600;
+}
+
+.about-text {
+    font-size: 16px;
+}
+
+.high-link {
+    color: #e83f53;
+    transition: all .2s;
+}
+
+.high-link:hover {
+    color: #a71b2c;
+    text-decoration: none;
+}
+
+.stats {
+    width: 100%;
+    height: 250px;
+    background-attachment: fixed;
+    background: linear-gradient(-10deg, rgba(34, 34, 34, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%), url("../../resources/img/pexels-li-sun-371049.jpg");
+    background-size: cover;
+    background-position-y: 36%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.stat-col {
+    text-align: center;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.stat-title {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.stat-num {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.col-4 {
+    outline: none;
+}
+
+.services {
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.services .col {
+    padding: 50px 0 0 0;
+}
+
+.h2-after-line:after {
+    display: block;
+    content: "";
+    width: 80px;
+    height: 2px;
+    margin: 15px auto 7px auto;
+    background-color: #e83f53;
+}
+
+.h2-after-text {
+    margin-top: 12px;
+}
+
+.feature-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    margin: 0 auto;
+    position: relative;
+}
+
+.feature-icon i {
+    font-size: 32px;
+    color: #e83f53;
+    position: absolute;
+    top: 50%;
+    translate: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.feature-text {
+    font-size: 14px;
+    width: 80%;
+    margin: 17px auto 0 auto;
+}
+
+.feature-text h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.trainers {
+    width: 100%;
+    padding: 70px 0;
+    background: linear-gradient(to bottom right, #151515ce 0%, #151515c7 100%), url("../../resources/img/pexels-li-sun-371049.jpg");
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.skew-h2 {
+    background-color: #e83f53;
+    display: inline-block;
+    transform: skewX(-15deg);
+    padding: 4px 22px;
+}
+
+.trainers h2, .testimonials h2 {
+    color: #fff;
+    display: inline-block;
+    transform: skewX(15deg);
+}
+
+.trainers .h2-after-text, .testimonials .h2-after-text {
+    color: rgba(255, 255, 255, 0.61);
+}
+
+.carousel-slide.row, .carousel-slide-2.row, .carousel-slide-3.row {
+    width: 80%;
+    margin: 0 auto;
+    outline: none;
+}
+
+.slideNext, .slidePrev, .slideNext-2, .slidePrev-2 {
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.61);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    vertical-align: middle;
+    margin-top: 120px;
+}
+
+.slideNext i, .slidePrev i, .slideNext-2 i, .slidePrev-2 i {
+    position: absolute;
+    font-size: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.trainer-profile {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 4px;
+}
+
+.tile-side {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    border: 1px solid #fff;
+    transition: all .4s ease;
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    border-radius: 4px;
+}
+
+.trainer-1 .front-side {
+    background: url("../../resources/img/pexels-thisisengineering-3912953.jpg");
+}
+
+.trainer-2 .front-side {
+    background: url("../../resources/img/pexels-sabel-blanco-1638324.jpg");
+}
+
+.trainer-3 .front-side {
+    background: url("../../resources/img/pexels-cesar-galeão-3289711.jpg");
+}
+
+.trainer-4 .front-side {
+    background: url("../../resources/img/pexels-karolina-grabowska-4498155.jpg");
+}
+
+.trainer-profile .front-side {
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.trainer-1 .back-side {
+    background: linear-gradient(to bottom right, #15151596 0%, #15151596 100%), url("../../resources/img/pexels-thisisengineering-3912953.jpg");
+}
+
+.trainer-2 .back-side {
+    background: linear-gradient(to bottom right, #15151596 0%, #15151596 100%), url("../../resources/img/pexels-sabel-blanco-1638324.jpg");
+}
+
+.trainer-3 .back-side {
+    background: linear-gradient(to bottom right, #15151596 0%, #15151596 100%), url("../../resources/img/pexels-cesar-galeão-3289711.jpg");
+}
+
+.trainer-4 .back-side {
+    background: linear-gradient(to bottom right, #15151596 0%, #15151596 100%), url("../../resources/img/pexels-karolina-grabowska-4498155.jpg");
+}
+
+.trainer-profile .back-side {
+      background-size: cover;
+      background-position: center;
+      transform: rotateY(180deg);
+      position: absolute;
+      border-radius: 4px;
+}
+
+.trainer-profile .back-side .trainer-deets {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.trainer-profile .back-side h4 {
+    font-size: 22px;
+}
+
+.trainer-profile .back-side h4:after {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 2px;
+    margin: 9px auto;
+    background-color: #e83f53;
+}
+
+.trainer-social-btn {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1px solid #e83f53;
+    margin: 0 4px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    transition: all .2s;
+}
+
+.trainer-profile .trainer-social {
+    margin: 12px auto 0 auto;
+}
+
+.trainer-social-btn i {
+    font-size: 12px;
+    color: #e83f53;
+    position: absolute;
+    top: 50%;
+    translate: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.trainer-social-btn:hover {
+    background-color: #e83f53;
+    border: 1px solid #e83f53;
+}
+
+.trainer-social-btn:hover i {
+    color: #fff;
+}
+
+.trainer-profile:hover .back-side {
+    transform: rotateY(0);
+}
+
+.trainer-profile:hover .front-side {
+    transform: rotateY(-180deg);
+}
+
+.classes {
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.slideNext-btn-2, .slidePrev-btn-2, .slideNext-btn-3, .slidePrev-btn-3 {
+    border: 1px solid #ccc;
+    margin-top: 100px;
+}
+
+.classes .class {
+    width: 275px;
+    height: 260px;
+    margin: 0 auto;
+    border-radius: 7px;
+    box-shadow: 0 15px 4px #ccc;
+    background-size: cover;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    transition: all .2s;
+}
+
+.classes .class:hover {
+    transform: translateY(-7px);
+}
+
+.class-1 {
+    background: linear-gradient(to bottom right, #15151562 0%, #15151552 100%), url("../../resources/img/pexels-binyamin-mellish-17840.jpg");
+}
+
+.class-2 {
+    background: linear-gradient(to bottom right, #15151593 0%, #15151591 100%), url("../../resources/img/pexels-andrea-piacquadio-863977.jpg");
+}
+
+.class-3 {
+    background: linear-gradient(to bottom right, #151515ab 0%, #151515a2 100%), url("../../resources/img/pexels-li-sun-2294353.jpg");
+}
+
+.class-4 {
+    background: linear-gradient(to bottom right, #15151562 0%, #15151552 100%), url("../../resources/img/pexels-pixabay-416778.jpg");
+}
+
+.class-details {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.classes .class .price-tag {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.classes .class h4 {
+    font-size: 16px;
+    color: #e83f53;
+    font-weight: 700;
+}
+
+.classes .class .class-description {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.classes .class a {
+    font-size: 12px;
+    color: #e83f53;
+    border: 1px solid #e83f53;
+    padding: 3px 14px;
+    border-radius: 17px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+
+.gallery {
+    width: 100%;
+    text-align: center;
+    padding: 70px 0 0;
+}
+
+.gallery h2 {
+    color: #fff;
+    transform: skewX(15deg);
+}
+
+.gallery .h2-after-text {
+    margin-bottom: 50px;
+}
+
+.gallery-row {
+    width: 100%;
+}
+
+.gallery-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.gallery-image {
+    width: 25%;
+    height: 250px;
+    overflow: hidden;
+    float: left;
+    background-color: #000;
+}
+
+.gallery-image img {
+    width: 100%;
+    transform: scale(1.2);
+    transition: all .4s;
+    opacity: .8;
+}
+
+.gallery-image:hover img {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.pricing {
+    width: 100%;
+    padding: 50px 0 70px 0;
+    text-align: center;
+}
+
+.slideNext-btn-3, .slidePrev-btn-3 {
+    margin-top: 160px;
+}
+
+.pricing-tile {
+    width: 270px;
+    height: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: 0 1.5px 4px rgba(167, 167, 167, 0.15);
+    border: 1.5px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.pricing-header {
+    width: 100%;
+    height: 40%;
+    content: "";
+    display: block;
+    background-size: cover;
+    border-radius: 4px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    background: linear-gradient(to bottom right, #1515158c 0%, #15151580 100%), url("../../resources/img/pexels-binyamin-mellish-17840.jpg");
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    padding: 17px;
+}
+
+.pricing-header .price-tag {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+    margin-top: 12px;
+}
+
+.pricing-header .price-tag:after {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 2px;
+    margin: 4px auto;
+    background-color: #e83f53;
+}
+
+.pricing-header h4 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 12px;
+    letter-spacing: 1px;
+}
+
+.plan-deets {
+    width: 100%;
+    height: 45%;
+}
+
+.plan-deets .plan-list {
+    list-style: none;
+    padding: 0px 40px 0;
+}
+
+.plan-deets .plan-list .plan-item {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: .5px solid #ddd;
+}
+
+.pricing-footer {
+    height: 15%;
+    width: 100%;
+}
+
+.pricing-footer .pricing-button {
+    display: block;
+    width: 160px;
+    padding: 7px;
+    border-radius: 17px;
+    background-color: #e83f53;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    margin: 7px auto 0 auto;
+    text-decoration: none;
+}
+
+/* ---------------- Slick Dots --------------- */
+
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	
+	margin: 25px 0 0;
+	padding: 1rem 0;
+	
+    list-style-type: none;
+    outline: none;
+}
+	
+.slick-dots li {
+    margin: 0 0.25rem;
+    outline: none;
+}
+	
+.slick-dots button {
+	display: block;
+	width: 12px;
+	height: 12px;
+	padding: 0;
+    outline: none;
+			
+    border: 1px solid #fff;
+    background-color: transparent;
+	border-radius: 100%;
+			
+	text-indent: -9999px;
+}
+	
+.slick-dots li.slick-active button {
+	background-color: #fff;
+}
+
+/* ---------------------------------------------------- */
+
+.testimonials {
+    width: 100%;
+    padding: 70px 0 50px 0;
+    text-align: center;
+    background: linear-gradient(to bottom right, #151515ce 0%, #151515c7 100%), url("../../resources/img/pexels-cesar-galeão-3253501.jpg");
+    background-size: cover;
+    color: #fff;
+}
+
+.testimonials .row-width {
+    width: 800px;
+}
+
+.testimonial {
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 100%;
+    outline: none;
+}
+
+.testimonial .testimonial-profile-image {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 25px auto;
+    overflow: hidden;
+}
+
+.testimonial .testimonial-profile-image img {
+    width: 100%;
+}
+
+.testimonial .testimonial-profile-details .name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #e83f53;
+    margin: 25px auto 0 auto;
+}
+
+.testimonial .testimonial-profile-details .desg {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.contact {
+    width: 100%;
+    height: 230px;
+    background-color: #e83f53;
+    position: relative;
+    color: #fff;
+    padding: 30px 150px;
+}
+
+.contact .timing {
+    width: 55%;
+    height: 240px;
+    position: absolute;
+    right: 0;
+    top: -5px;
+    background-color: #151515;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+    padding: 50px 170px;
+}
+
+.contact .cta {
+    width: 350px;
+}
+
+.contact .cta .cta-text {
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 7px 0;
+}
+
+.contact .cta h4 {
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.contact .cta a.contact-number {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .2px;
+    margin-top: 14px;
+    display: inline-block;
+    background-color: #fff;
+    padding: 2px 17px 4px 17px;
+    border-radius: 25px;
+}
+
+.contact .timing h4 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.contact .timing .time-slot {
+    color: #999;
+}

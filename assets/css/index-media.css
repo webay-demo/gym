@@ -1,0 +1,161 @@
+@media only screen and (max-width: 768px) {
+
+    .main-slide {
+        height: 80vh;
+        padding: 0 16px;
+        background-position-x: 20%;
+    }
+
+    .heading-text {
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(40%);
+    }
+
+    h1 {
+        font-size: 30px;
+        letter-spacing: 1px;
+        line-height: 40px;
+        width: 100%;
+    }
+
+    .heading-sub-text {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .about {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .row {
+        width: 100%;
+        margin: 0;
+    }
+
+    .col-md {
+        padding: 16px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .sub-h2 {
+        margin: 0 auto 12px auto;
+    }
+
+    .about-text {
+        font-size: 15px;
+    }
+
+    .about-us-image {
+        width: 100%;
+    }
+
+    .high-link {
+        font-size: 15px;
+    }
+
+    .stats {
+        height: auto;
+        padding: 25px 0;
+        background-position-x: 20%;
+    }
+
+    .stat-col {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    
+    .stat-title {
+        font-size: 22px;
+        margin-bottom: 4px;
+    }
+    
+    .stat-num {
+        font-size: 18px;
+    }
+
+    .services, .classes {
+        padding: 50px 0;
+    }
+
+    .h2-after-line:after {
+        width: 55px;
+        margin-top: 12px;
+    }
+
+    .h2-after-text {
+        width: 90%;
+        margin: 0 auto 17px auto;
+        font-size: 15px;
+    }
+
+    .feature-icon {
+        width: 55px;
+        height: 55px;
+    }
+
+    .feature-icon i {
+        font-size: 24px;
+    }
+
+    .skew-h2 {
+        margin-bottom: 12px;
+    }
+
+    .gallery {
+        padding-top: 30px;
+    }
+
+    .gallery-image {
+        width: 50%;
+        height: 130px;
+        overflow: hidden;
+        float: left;
+    }
+
+    .gallery .h2-after-text {
+        margin-bottom: 30px;
+    }
+
+    .pricing {
+        padding-bottom: 30px;
+    }
+
+    .pricing-tile {
+        margin-bottom: 35px;
+    }
+
+    .testimonials .row-width {
+        width: 90%;
+    }
+
+    .testimonial {
+        padding-top: 15px;
+    }
+
+    .contact {
+        padding: 25px 16px 40px 16px;
+        height: auto;
+    }
+
+    .contact .cta {
+        width: 100%;
+    }
+
+    .contact .cta h4 {
+        margin: 0;
+    }
+
+    .contact .timing-phone {
+        background-color: #151515;
+        padding: 20px 70px 10px 16px;
+        margin-top: 35px;
+    }
+
+}

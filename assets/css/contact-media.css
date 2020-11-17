@@ -1,0 +1,30 @@
+@media only screen and (max-width: 768px) {
+
+    .row-width {
+        padding: 7px 16px;
+    }
+
+    header {
+        padding: 20px;
+        background-position-y: 23%;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .footer.row-width {
+        padding: 0;
+    }
+
+    .contact {
+        font-size: 17px;
+        padding: 25px 0;
+    }
+    
+    form {
+        width: 100%;
+        padding: 14px 25px;
+    }
+
+}
