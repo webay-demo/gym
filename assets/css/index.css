@@ -146,6 +146,10 @@ h2 {
 
 .h2-after-text {
     margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.services .h2-after-text {
     margin-bottom: 70px;
 }
 
