@@ -95,7 +95,9 @@
 
     .h2-after-text {
         width: 90%;
-        margin: 0 auto 17px auto;
+        margin: 12px auto 0 auto;
+        margin-top: 12px;
+        margin-bottom: 0;
         font-size: 15px;
     }
 
