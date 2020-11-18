@@ -9,9 +9,9 @@
     .heading-text {
         width: 90%;
         position: absolute;
-        top: 35%;
+        top: 40%;
         left: 0;
-        transform: translateY(35%);
+        transform: translateY(40%);
     }
 
     h1 {
