@@ -60,7 +60,8 @@
         margin-top: 2px;
     }
 
-    .sticky .menu-bar {
+    .navbar.sticky .menu-bar {
+        display: inline-block;
         color: #222;
         border: 1px solid #222;
     }
