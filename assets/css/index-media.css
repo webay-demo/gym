@@ -101,6 +101,10 @@
         font-size: 15px;
     }
 
+    .services .h2-after-text {
+        margin-bottom: 20px;
+    }
+
     .feature-icon {
         width: 55px;
         height: 55px;
