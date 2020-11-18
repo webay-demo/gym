@@ -129,7 +129,7 @@
         float: left;
     }
 
-    .gallery .h2-after-text {
+    .gallery .h2-after-text, .pricing .h2-after-text {
         margin-bottom: 30px;
     }
 
